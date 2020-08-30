@@ -42,4 +42,9 @@
   public void setAuthorOfBook(String authorOfBook) {
    this.authorOfBook = authorOfBook;
   }
+
+  public String getNumberOfBook() {
+   return this.NumberOfBook;
+  }
+
  }
