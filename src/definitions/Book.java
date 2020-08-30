@@ -51,4 +51,16 @@
    this.NumberOfBook = NumberOfBook;
   }
 
+  public void getData() {
+   System.out.println("Book Name: " + nameOfBook);
+  }
+
+  @Override
+  public String toString() {
+   return "Book{" +
+           "nameOfBook='" + nameOfBook + '\'' +
+           ", authorOfBook='" + authorOfBook + '\'' +
+           ", NumberOfBook='" + NumberOfBook + '\'' +
+           '}';
+  }
  }
