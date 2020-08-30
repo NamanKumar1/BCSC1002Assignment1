@@ -27,5 +27,8 @@
    this.nameOfBook = nameOfBook;
   }
 
+  public String getNameOfBook() {
+   return this.nameOfBook;
+  }
 
  }
