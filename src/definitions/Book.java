@@ -11,4 +11,10 @@
   private String authorOfBook;
   private String NumberOfBook;
 
+  public Book() {
+   nameOfBook = "Let's Java";
+   authorOfBook = "S.Chandra";
+   NumberOfBook = "2558463278";
+  }
+
  }
