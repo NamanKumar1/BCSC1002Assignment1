@@ -22,4 +22,14 @@ public class Student {
             name[index] = new Book("IssuedBook " + (index + 1));
         }
     }
+
+    public Student(String studentName, long universityRollNumber, int numberOfBooksIssued, Book[] name) {
+        this.studentName = studentName;
+        this.universityRollNumber = universityRollNumber;
+        this.numberOfBooksIssued = numberOfBooksIssued;
+        this.name = new Book[5];
+        for (int index = 0; index < name.length; index++) {
+            name[index] = new Book("Book " + (index + 1));
+        }
+    }
 }
