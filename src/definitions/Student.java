@@ -61,4 +61,11 @@ public class Student {
         this.numberOfBooksIssued = numberOfBooksIssued;
     }
 
+    public Book[] getName() {
+        return this.name;
+    }
+
+    public void setName(Book[] name) {
+        this.name = name;
+    }
 }
