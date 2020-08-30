@@ -17,4 +17,10 @@
    NumberOfBook = "2558463278";
   }
 
+  public Book(String nameOfBook, String authorOfBook, String NumberOfBook) {
+   this.nameOfBook = nameOfBook;
+   this.authorOfBook = authorOfBook;
+   this.NumberOfBook = NumberOfBook;
+  }
+
  }
