@@ -45,4 +45,11 @@ public class Student {
         this.studentName = studentName;
     }
 
+    public long getUniversityRollNumber() {
+        return this.universityRollNumber;
+    }
+
+    public void setUniversityRollNumber(long universityRollNumber) {
+        this.universityRollNumber = universityRollNumber;
+    }
 }
