@@ -8,8 +8,18 @@ package definitions;
 
 public class Student {
     Student studentObject = new Student();
-    private String studentFirstName, studentMiddleName, studentLastName;
+    private String studentName;
     private long universityRollNumber;
     private int numberOfBooksIssued;
     private Book[] name;
+
+    public Student() {
+        studentName = "Naman Kumar";
+        universityRollNumber = 191500473;
+        numberOfBooksIssued = 3;
+        this.name = new Book[3];
+        for (int index = 0; index < name.length; index++) {
+            name[index] = new Book("IssuedBook " + (index + 1));
+        }
+    }
 }
