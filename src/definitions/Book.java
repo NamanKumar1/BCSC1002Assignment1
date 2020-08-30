@@ -31,4 +31,7 @@
    return this.nameOfBook;
   }
 
+  public void setNameOfBook(String nameOfBook) {
+   this.nameOfBook = nameOfBook;
+  }
  }
