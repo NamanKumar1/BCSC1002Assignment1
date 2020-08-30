@@ -32,4 +32,17 @@ public class Student {
             name[index] = new Book("Book " + (index + 1));
         }
     }
+
+    public Student(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getStudentName() {
+        return this.studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
 }
