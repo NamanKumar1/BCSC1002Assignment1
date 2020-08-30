@@ -39,4 +39,7 @@
    return this.authorOfBook;
   }
 
+  public void setAuthorOfBook(String authorOfBook) {
+   this.authorOfBook = authorOfBook;
+  }
  }
