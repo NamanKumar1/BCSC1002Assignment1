@@ -23,4 +23,9 @@
    this.NumberOfBook = NumberOfBook;
   }
 
+  public Book(String nameOfBook) {
+   this.nameOfBook = nameOfBook;
+  }
+
+
  }
