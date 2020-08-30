@@ -75,4 +75,9 @@
            Objects.equals(getAuthorOfBook(), book.getAuthorOfBook()) &&
            Objects.equals(getNumberOfBook(), book.getNumberOfBook());
   }
+
+  @Override
+  public int hashCode() {
+   return Objects.hash(getNameOfBook(), getAuthorOfBook(), getNumberOfBook());
+  }
  }
