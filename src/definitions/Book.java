@@ -34,4 +34,9 @@
   public void setNameOfBook(String nameOfBook) {
    this.nameOfBook = nameOfBook;
   }
+
+  public String getAuthorOfBook() {
+   return this.authorOfBook;
+  }
+
  }
