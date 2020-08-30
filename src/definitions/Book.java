@@ -47,4 +47,8 @@
    return this.NumberOfBook;
   }
 
+  public void setNumberOfBook(String NumberOfBook) {
+   this.NumberOfBook = NumberOfBook;
+  }
+
  }
